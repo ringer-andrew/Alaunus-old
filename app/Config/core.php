@@ -18,9 +18,6 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-ini_set('display_errors', 1);
-error_reporting(E_ALL); 
-
 /**
  * CakePHP Debug Level:
  *
@@ -225,12 +222,12 @@ error_reporting(E_ALL);
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubddu7iR2G0FgaC9mi');
+	Configure::write('Security.salt', 'KZg*GT1)@gGP87fRXVeNQr9$xSYzY_oBWJ*RFXx8');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542422359683645');
+	Configure::write('Security.cipherSeed', '56703688405426003472770465498283');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
@@ -278,7 +275,7 @@ error_reporting(E_ALL);
  * then the value of `Config.timezone` will be used. This feature allows you to set users' timezone just
  * once instead of passing it each time in function calls.
  */
-	//Configure::write('Config.timezone', 'Europe/Paris')
+	Configure::write('Config.timezone', 'America/Toronto');
 
 /**
  *

@@ -67,6 +67,8 @@ if (!defined('RDS_HOSTNAME')) {
 	define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
 }
 
+var_dump($_SERVER);
+
 class DATABASE_CONFIG {
 
 	public $default = array(
